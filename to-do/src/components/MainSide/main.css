@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.title_div {
+    margin-top: 100px;
+    margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+}
+
+.title {
+    font-family: Inter;
+    font-size: 34px;
+    font-weight: 700;
+    color: #151517;
+
+}
+
+.description {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    color: #151517;
+
+
+}
+
+.block_btn {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    /* margin-left: 80px;
+    margin-top: 102px; */
+
+}
+
+.btn {
+    padding: 10px 24px 10px 24px;
+    border-radius: 100px;
+    border: none;
+    height: 40px;
+    color: rgba(8, 30, 52, 1);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.active {
+    background-color: rgba(8, 30, 52, 0.42);
+    color: rgba(255, 251, 254, 1);
+    font-weight: 700;
+    font-family: Inter;
+    font-size: 14px;
+    padding: 8px 24px 8px 24px;
+}
+
+.btns {
+    display: flex;
+    flex-direction: row;
+    padding-left: 80px;
+    justify-content: space-between;
+    padding-right: 80px;
+    margin-top: 102px;
+}
+
+.btn_plus{
+    border-radius: 100px;
+    padding: 14px;
+    background-color: rgba(8, 30, 52, 1);
+    border: none;
+    width: 52px;
+    height: 52px;
+}
+
+.second_section {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding-left: 80px;
+    margin-top: 60px;
+    padding-right: 80px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.divider {
+    height: 2px;
+    background-color: rgba(21, 21, 23, 1);
+    opacity: 20%;
+}
+.item_list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-left: 56px;
+    margin-top: 25px;
+    width: 654px;
+}
+.first_item {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:8px ;
+    
+}
+
+.done {
+    background-color: rgba(228, 230, 231, 1);
+    color: rgba(149, 149, 149, 1);
+}
+.title_item {
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.move_to_trash_modal {
+    position: absolute;
+    bottom: 50px;
+    left: -40px;
+}
+
+.move_to_trash {
+    position: absolute;
+    top: -20px;
+    right: 180px
+}

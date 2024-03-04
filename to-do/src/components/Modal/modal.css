@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+
+.title_todo {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 16px;
+    color: #151517;
+}
+
+.input_text {
+    width: 236px;
+    height: 120px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px; /* Match the font size of the placeholder */
+    /* padding: 13px 16px; */
+    font-family: Inter; /* Set the font family for the input text */
+    font-weight: 500; 
+    box-sizing: border-box;
+}
+
+.input_text::placeholder {
+    /* position: absolute;
+    top: 13px;
+    left: 16px; */
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.container_modal {
+    /* margin-left: 300px;
+    margin-top: 100px; */
+    position: absolute;
+    top: 100px;
+    right: 160px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #E4E6E7;
+    width: 268px;
+    /* height: 234px; */
+    padding: 16px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.16);
+    border-radius: 12px;
+}
+.add_btn {
+    background-color: #081E34;
+    color: #FFFBFE;
+    border-radius: 100px;
+    height: 40px;
+    width: 76px;
+    padding:8px 24px 8px 24px ;
+    border: none;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 14px;
+}
